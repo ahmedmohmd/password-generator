@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Roboto+Mono:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="range"] {
+  background-color: #434343;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  background-color: #e6e5ea;
+  width: 20px;
+  height: 20px;
+}
+
+/* Firefox */
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  background-color: #e6e5ea;
+  width: 20px;
+  height: 20px;
+}
+
+/* Checkboc */
+input[type="checkbox"] {
+  --tw-ring-shadow: none !important;
+  --tw-ring-offset-shadow: none !important;
+  box-shadow: none !important;
+  background-size: 70% !important;
+  background-color: transparent;
+}
+input[type="checkbox"]:checked {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/33/33281.png") !important;
+}
