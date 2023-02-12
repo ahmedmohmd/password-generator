@@ -1,37 +1,37 @@
 import { useState } from "react";
-import Checkbox from "../atoms/CheckBox";
+import Checkbox from "../atoms/Checkbox";
+import GenerateButton from "../atoms/GenerateButton";
 import RangeInput from "../atoms/Range";
+import Strength from "./Strength";
 
 interface Props {
   getData: (data: any) => void;
-  data: any;
+  password: string;
 }
 
-const Control = () => {
+const Control = ({ getData, password }: Props) => {
   const [length, setLength] = useState<number>();
   const [upper, setUpper] = useState<boolean>(false);
   const [lower, setLower] = useState<boolean>(false);
-  const [numbers, setNumbers] = useState<boolean>(false);
-  const [symbols, setSymbols] = useState<boolean>(false);
+  const [nums, setNums] = useState<boolean>(false);
+  const [syms, setSyms] = useState<boolean>(false);
 
   const onRange = (length: number) => {
-    setLength(length + 1);
+    setLength(length);
   };
 
-  const handleSubmit = () => {
-    const data = {
+  const handleGenerate = () => {
+    getData({
       length,
       upper,
       lower,
-      numbers,
-      symbols,
-    };
-
-    console.log(data);
+      nums,
+      syms,
+    });
   };
 
   return (
-    <div className="p-6 bg-[#24232b] w-[320px] md:w-[450px]">
+    <div className="p-5 md:p-7 bg-[#24232b] w-[320px] md:w-[450px] ">
       <RangeInput onRange={onRange} />
 
       <Checkbox
@@ -50,18 +50,21 @@ const Control = () => {
       />
       <Checkbox
         handleCheck={() => {
-          setNumbers(!numbers);
+          setNums(!nums);
         }}
-        value={numbers}
+        value={nums}
         label="Include Numbers"
       />
       <Checkbox
         handleCheck={() => {
-          setSymbols(!symbols);
+          setSyms(!syms);
         }}
-        value={symbols}
+        value={syms}
         label="Include Symbols"
       />
+
+      <Strength password={password} />
+      <GenerateButton handleGenerate={handleGenerate} />
     </div>
   );
 };

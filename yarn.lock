@@ -387,6 +387,16 @@
   dependencies:
     mini-svg-data-uri "^1.2.3"
 
+"@types/lodash@^4.14.191":
+  version "4.14.191"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.191.tgz#09511e7f7cba275acd8b419ddac8da9a6a79e2fa"
+  integrity sha512-BdZ5BCCvho3EIXw6wUCXHe7rS53AIDPLE+JzwgT+OsJk53oBfbSmZZ7CX4VaRoN78N+TJpFi9QPlfIVNmJYWxQ==
+
+"@types/node@^18.13.0":
+  version "18.13.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.13.0.tgz#0400d1e6ce87e9d3032c19eb6c58205b0d3f7850"
+  integrity sha512-gC3TazRzGoOnoKAhUx+Q0t8S9Tzs74z7m0ipwGpSqQrleP14hKxP4/JUeEQcD3W1/aIpnWl8pHowI7WokuZpXg==
+
 "@types/prop-types@*":
   version "15.7.5"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
@@ -516,6 +526,11 @@ chalk@^2.0.0:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
+check-password-strength@^2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/check-password-strength/-/check-password-strength-2.0.7.tgz#d8fd6c1a274267c7ddd9cd15c71a3cfb6ad35baa"
+  integrity sha512-VyklBkB6dOKnCIh63zdVr7QKVMN9/npwUqNAXxWrz8HabVZH/n/d+lyNm1O/vbXFJlT/Hytb5ouYKYGkoeZirQ==
+
 chokidar@^3.5.3:
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
@@ -552,6 +567,11 @@ convert-source-map@^1.7.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-1.9.0.tgz#7faae62353fb4213366d0ca98358d22e8368b05f"
   integrity sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==
+
+crypto@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/crypto/-/crypto-1.0.1.tgz#2af1b7cad8175d24c8a1b0778255794a21803037"
+  integrity sha512-VxBKmeNcqQdiUQUW2Tzq0t377b54N2bMtXO/qiLa+6eRRmmC4qT3D4OnTGoT/U6O9aklQ/jTwbOtRMTTY8G0Ig==
 
 cssesc@^3.0.0:
   version "3.0.0"
@@ -677,6 +697,18 @@ function-bind@^1.1.1:
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
 
+generate-password-ts@^1.6.3:
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/generate-password-ts/-/generate-password-ts-1.6.3.tgz#30250de208f3d0d1a45b128700a3449b777b13d3"
+  integrity sha512-6piPG6qvW3B40NLKz6VfK9IgVl0MXRZgGt1SW3zUTZXln2DVno84cAwx0Z6OvA9uJKXRjRRvPz1CUDDsWXJZwA==
+  dependencies:
+    js-crypto-random "1.0.2"
+
+generate-password@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/generate-password/-/generate-password-1.7.0.tgz#00ba4eb1e71f89a72307b0d6604ee0d4e7f5770c"
+  integrity sha512-WPCtlfy0jexf7W5IbwxGUgpIDvsZIohbI2DAq2Q6TSlKKis+G4GT9sxvPxrZUGL8kP6WUXMWNqYnxY6DDKAdFA==
+
 gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/gensync/-/gensync-1.0.0-beta.2.tgz#32a6ee76c3d7f52d46b2b1ae5d93fea8580a25e0"
@@ -744,6 +776,18 @@ is-number@^7.0.0:
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
 
+js-crypto-env@^1.0.2:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/js-crypto-env/-/js-crypto-env-1.0.4.tgz#2be3b0987124bfaf094aadd3c9d91a56aedb0f2a"
+  integrity sha512-b7WdjaX4csatMPfZ/mQ94yb/XTKe3o6qt0jPBVbKmaiOH97e+FlmIANoFEMrhxQM1xxKfA2QYLjgqL/YtdMm9g==
+
+js-crypto-random@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/js-crypto-random/-/js-crypto-random-1.0.2.tgz#79945b1252802dcca231a4f5c6b788c106e6eecf"
+  integrity sha512-bJ31lo2YrxOJIRnT/XPzUu2O43/7uGWAzAtXmAi09Oq6Jmrd2uVy8wII/WH3thezhZvjdU85fVtySSeD1Y2/dQ==
+  dependencies:
+    js-crypto-env "^1.0.2"
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -763,6 +807,11 @@ lilconfig@^2.0.5, lilconfig@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/lilconfig/-/lilconfig-2.0.6.tgz#32a384558bd58af3d4c6e077dd1ad1d397bc69d4"
   integrity sha512-9JROoBW7pobfsx+Sq2JsASvCo6Pfo6WWoUW79HuB1BCoBXD4PLWJPqDF6fNj67pqBYTbAHkE57M1kS/+L1neOg==
+
+lodash@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 loose-envify@^1.1.0:
   version "1.4.0"

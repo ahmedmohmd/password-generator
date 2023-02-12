@@ -20,7 +20,7 @@ const Result = ({ result }: Props) => {
   };
 
   return (
-    <div className="px-2 flex mb-6 justify-between items-center bg-[#24232b] w-[320px] md:w-[450px] h-16">
+    <div className="px-2 md:px-4  flex mb-6 justify-between items-center bg-[#24232b] w-[320px] md:w-[450px] h-16">
       <div
         className={`flex-1 flex px-2 h-full ${
           result ? "text-light-gray" : "text-secondary"

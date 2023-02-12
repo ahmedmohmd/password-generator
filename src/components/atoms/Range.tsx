@@ -1,5 +1,4 @@
 import { useRef, useState } from "react";
-import Checkbox from "./CheckBox";
 
 interface Props {
   onRange: (length: number) => void;
@@ -11,7 +10,7 @@ const RangeInput = ({ onRange }: Props) => {
 
   const handleRange = (event: any) => {
     setLength(+event.target.value);
-    onRange(length);
+    onRange(+event.target.value);
   };
 
   const handleInput = (event: any) => {
