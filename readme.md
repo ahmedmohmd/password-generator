@@ -1,46 +1,64 @@
 # Password Generator
 
----
+## 🚀 Brief Overview
 
-# Description
+Introducing Password Generator, a powerful and intuitive web app designed to help users create secure passwords effortlessly. Built with modern technologies like React.js, TypeScript, and Tailwind CSS, this app provides a smooth, responsive experience and a sleek design. Featuring a password strength meter with four levels, users can instantly gauge the security of their passwords. With an emphasis on speed, performance, and ease of use, "Password Generator" simplifies the process of generating strong, secure passwords for better online protection.
 
-Introducing "Password Generator", a cutting-edge website built using React.js, TypeScript, and Tailwind framework. The website offers a user-friendly interface and powerful features to help users create strong and secure passwords with ease. With a specific function for generating strong passwords, users can enjoy peace of mind knowing that their online accounts are protected. Try out "Password Generator" today and simplify your password management process!
+## ✨ Key Features
 
-# Website Features
+1. Responsive Design
+2. Awesome Design thanks to **tailwind**.
+3. Nice perfomance.
 
-- Responsive Design
-- Nice Design with Tailwind Framework.
-- Speed & Good Performance thanks to [**React.js**](https://reactjs.org/).
-- Password Meter measure Password Strength with Four Levels.
+## 🛠️ Tech Stack
 
----
+- React.js
+- TailwindCSS
+- TypeScript
 
-# Languages & Technologies
+## 🔧 Install Instructions
 
-### Languages used in this Web App:
+1. Clone the repo
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="drawing" width="48" height="48"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=ar"><img src="https://img.icons8.com/color/48/000000/css3.png" alt="drawing" width="48" height="48"/></a>
-  <a href="https://www.javascript.com/"><img src="https://img.icons8.com/color/48/000000/javascript--v2.png" width="48" height="48"/></a>
-</div>
+```bash
+    git clone https://github.com/ahmedmohmd/password-generator.git
 
-### Technolohies that used in this App:
+```
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-  <a href="https://reactjs.org/"><img src="https://cdn-icons-png.flaticon.com/128/919/919851.png" width="48" height="48"/></a>
-  <a href="https://www.typescriptlang.org/"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968381.png" width="48" height="48"/></a>
-  <a href="https://tailwindcss.com/"><img src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg" width="48" height="48"/></a>
-</div>
+2. Install dependencies
 
-### Other Libs & Packages:
+```bash
+  yarn install
 
-- [**react-icons**](https://react-icons.github.io/react-icons/)
-- [**lodash**](https://lodash.com/)
-- [**check-password-strength**](https://www.npmjs.com/package/check-password-strength)
+```
 
----
+3. Run the App
 
-# Web App Screenshot
+```bash
+  yarn run dev
+
+```
+
+## 🖥️ Usage
+
+1. You can geenrate password with different levels:
+
+- Too Week
+- Weak
+- Medium
+- Strong
+
+2. You can control what type of char can generated password includes:
+
+- Include Uppercase Letters
+- Include Lowercase Letters
+- Include Numbers
+- Include Symbols
+
+## 👀 Demo
+
+[Password Generator](https://p3ssword-generator.vercel.app/)
+
+## 🖼️ Application's Screeshots
 
 ![Password Generator](./app-screenshot.png)
